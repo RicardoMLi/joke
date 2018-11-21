@@ -18,12 +18,12 @@ headers = {
 # email settings
 EMAIL_HOST = 'smtp.qq.com'
 EMAIL_PORT = 465
-EMAIL_HOST_USER = '508477625@qq.com'
+EMAIL_HOST_USER = 'xxxxxx@qq.com'
 
-EMAIL_HOST_PASSWORD = 'kxvnieeszmusbiib'
-EMAIL_SUBJECT_PREFIX = '愿博你一笑(来自李泽煜的小号)'
-EMAIL_SENDER = '508477625@qq.com'
-EMAIL_RECEIVER = '449273863@qq.com'
+EMAIL_HOST_PASSWORD = 'password'
+EMAIL_SUBJECT_PREFIX = '愿博你一笑(来自xxx)'
+EMAIL_SENDER = 'xxxxxx@qq.com'
+EMAIL_RECEIVER = 'xxxxxx@qq.com'
 
 # 线程列表
 # process_list = []

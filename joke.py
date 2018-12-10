@@ -25,7 +25,7 @@ EMAIL_SUBJECT_PREFIX = '愿博你一笑(来自xxx)'
 EMAIL_SENDER = 'xxxxxx@qq.com'
 EMAIL_RECEIVER = 'xxxxxx@qq.com'
 
-# 线程列表
+# 进程列表
 # process_list = []
 
 # def download_image(url):
@@ -109,7 +109,7 @@ def send_email(joke, email_host=EMAIL_HOST, email_host_user=EMAIL_HOST_USER, ema
 if __name__ == '__main__':
 	joke_list = sorted(get_joke(), key=lambda joke:joke['like'])
 
-	# 主进程等待子线程完成
+	# 主进程等待子进程完成
 	# for p in process_list:
 	# 	p.join()
 
